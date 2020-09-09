@@ -4,29 +4,17 @@ class MyNavbar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="h">Joshua Medlen</a>
-        <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
+        <a className="navbar-brand" href="/home">Joshua Medlen</a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="h">Bio<span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/about-me">Bio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="h">Tech</a>
+              <a className="nav-link" href="/Technologies">Tech</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="h">Projects</a>
+              <a className="nav-link" href="/Projects">Projects</a>
             </li>
           </ul>
         </div>

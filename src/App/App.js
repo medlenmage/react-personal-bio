@@ -13,13 +13,6 @@ import Home from '../components/pages/Home/Home';
 import ProjectsPage from '../components/pages/ProjectsPage/ProjectsPage';
 import TechPage from '../components/pages/TechPage/TechPage';
 
-const PublicRoute = ({ component: Component, authed, ...rest }) => {
-  const routeChecker = (props) => (authed === false
-    ? (<Component {...props} />)
-    : (<Redirect to={{ pathname: '/home', state: { from: props.location } }} />));
-  return <Route {...rest} render={(props) => routeChecker(props)} />;
-};
-
 class App extends React.Component {
   render() {
     return (
@@ -29,10 +22,10 @@ class App extends React.Component {
             <MyNavbar />
             <div className="container">
               <Switch>
-                <PublicRoute path="/home" component={Home} />
-                <PublicRoute path="/home" component={BioPage} />
-                <PublicRoute path="/home" component={ProjectsPage} />
-                <PublicRoute path="/home" component={TechPage} />
+                <Route path="/home" component={Home} />
+                <Route path="/About-Me" component={BioPage} />
+                <Route path="/Projects" component={ProjectsPage} />
+                <Route path="/Technologies" component={TechPage} />
                 <Redirect from="*" to="/home" />
               </Switch>
             </div>
