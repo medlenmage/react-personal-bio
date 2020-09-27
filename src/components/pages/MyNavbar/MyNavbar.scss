@@ -1,0 +1,26 @@
+@import '../../../stylings/variables';
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Mukta&display=swap');
+
+nav {
+  background-color: $color1 !important;
+}
+
+.links {
+  color: $color3 !important;
+  font-family: 'Crimson Text', serif;
+  font-weight: 500;
+}
+
+.link-list-container {
+  margin: auto;
+  // width: 25%;
+}
+
+.name-link {
+  margin-right: auto;
+}
+
+.listed {
+  // margin-left: 25px;
+  margin-right: 250px;
+}
