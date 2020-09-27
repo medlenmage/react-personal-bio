@@ -10,13 +10,13 @@ class MyNavbar extends React.Component {
         <div className="link-list-container">
           <ul className="navbar-nav link-list">
             <li className="nav-item">
-              <Link className="nav-link links" to="/about-me">About Me</Link>
+              <Link className="nav-link links listed" to="/about-me">About Me</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link links" to="/Technologies">Tech</Link>
+              <Link className="nav-link links listed" to="/Technologies">Tech</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link links" to="/Projects">Projects</Link>
+              <Link className="nav-link links listed" to="/Projects">Projects</Link>
             </li>
           </ul>
         </div>
