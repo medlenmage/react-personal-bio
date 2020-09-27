@@ -1,0 +1,18 @@
+@import '../../../stylings/variables';
+
+nav {
+  background-color: $color1 !important;
+}
+
+.links {
+  color: $color3 !important;
+}
+
+.link-list-container {
+  margin: auto;
+  width: 25%;
+}
+
+.name-link {
+  margin-right: auto;
+}
