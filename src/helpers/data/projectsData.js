@@ -3,10 +3,10 @@ import apiKeys from '../apiKeys.json';
 
 const baseUrl = apiKeys.firebaseConfig.databaseURL;
 
-const getMyProjects = () => new Promise((resolve, reject) => {
+const getProjects = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/projects.json`)
-    .then((res) => {
-      const allProjects = res.data;
+    .then((response) => {
+      const allProjects = response.data;
       const myProjects = [];
 
       Object.keys(allProjects).forEach((projectId) => {
@@ -19,4 +19,4 @@ const getMyProjects = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default getMyProjects;
+export default { getProjects };

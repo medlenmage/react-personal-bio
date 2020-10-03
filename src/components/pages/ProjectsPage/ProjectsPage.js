@@ -1,6 +1,7 @@
 import React from 'react';
 import projectsData from '../../../helpers/data/projectsData';
 import ProjectCards from '../ProjectCards/ProjectCards';
+import './ProjectsPage.scss';
 
 class ProjectsPage extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class ProjectsPage extends React.Component {
   // }
 
   componentDidMount() {
-    projectsData.getMyProjects()
+    projectsData.getProjects()
       .then((projects) => this.setState({ projects }))
       .catch((err) => console.error('could not get projects', err));
   }
@@ -26,8 +27,8 @@ class ProjectsPage extends React.Component {
 
     return (
       <div className="Projects">
-        <h3>Projects</h3>
-        <div classNanem="mb-3">
+        <h3 className="header">Projects</h3>
+        <div classNanem="m-auto">
           <div className="card-columns">
             {projectCard}
           </div>
