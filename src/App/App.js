@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter,
-  // Redirect,
+  Redirect,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -26,7 +26,7 @@ class App extends React.Component {
                 <Route path="/About-Me" component={BioPage} />
                 <Route path="/Projects" component={ProjectsPage} />
                 <Route path="/Technologies" component={TechPage} />
-                {/* <Redirect from="*" to="/home" /> */}
+                <Redirect from="*" to="/home" />
               </Switch>
             </div>
             <MyFooter />

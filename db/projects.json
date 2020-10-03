@@ -1,0 +1,47 @@
+{
+  "project1": {
+  "title": "Nutshell-muntjac",
+  "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/whalomVisitors.png?raw=true",
+  "description": "This was a project encompassing everything our group had learned so far using html, css, scss, javascript, jquery, webpack, and firebase",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, scss, webpack, and firebase",
+  "available": true,
+  "url": "https://e12-whalom-park.web.app/",
+  "githubUrl": "https://github.com/nss-evening-cohort-12/nutshell-muntjac"
+},
+   "project2": {
+  "title": "Sorting hat",
+  "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/sortHat.png?raw=true",
+  "description": "This solo project is a simple app that takes a name into a form and prints it to the dom in the form of a card. it randomly selects one of the 4 houses from harry potter and assigns it to them",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "url": "https://sorting-hat-a880f.web.app/#",
+  "githubUrl": "https://github.com/medlenmage/sorting-hat"
+},
+  "project3": {
+  "title": "Pants Culottes Group Project",
+  "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/1st-screenshot.png?raw=true",
+  "description": "This was a group assignment where u worked with 3 others to create a site showing and selling culotte pants.",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "url": "https://culottes-23c2c.web.app/",
+  "githubUrl": "https://github.com/medlenmage/pants-culottes"
+},
+"project4": {
+  "title": "Sports Roster",
+  "screenshot": "https://github.com/medlenmage/sports-roster/blob/master/screenshots/roster.png?raw=true",
+  "description": "A full CRUD app built from the ground up using React. This app displays a roster of players on a sports team and allows them to be created, updated, and deleted. This app also includes google authentication",
+  "technologiesUsed": "Vanilla JavaScript, Version Control with Github, SASS, React, and Firebase",
+  "available": true,
+  "url": "https://sports-roster-1e9c9.web.app/",
+  "githubUrl": "https://github.com/medlenmage/sports-roster"
+},
+"project5": {
+  "title": "Capstone: Gamer Log",
+  "screenshot": "https://github.com/medlenmage/capstone-gamer-log/blob/master/screenshots/appScreenshots/gamesPage.png?raw=true",
+  "description": "A full CRUD app built from the ground up using React. This app displays a roster of players on a sports team and allows them to be created, updated, and deleted. This app also includes google authentication",
+  "technologiesUsed": "Vanilla JavaScript, Version Control with Github, SASS, React, and Firebase",
+  "available": true,
+  "url": "https://gamer-log.web.app/",
+  "githubUrl": "https://github.com/medlenmage/capstone-gamer-log"
+}
+}
