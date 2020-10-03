@@ -21,4 +21,4 @@ class TechCards extends React.Component {
   }
 }
 
-export default { TechCards };
+export default TechCards;
