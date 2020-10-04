@@ -3,9 +3,19 @@
 
 .footer {
   color: $color1;
+  // top: 0;
+  // position: fixed;
+}
+
+.link-list-container {
+  display: table;
+  margin: auto;
+  list-style: none;
 }
 
 .footer-listed {
   margin-right: 125px;
   margin-left: 125px;
+  display: inline;
+  margin: auto;
 }
